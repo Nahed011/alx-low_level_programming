@@ -5,7 +5,7 @@
 /**
  * maim - entry point
  *
- * Describtion: The last digit
+ * Describtion: print the value of n status: greater than, is zero and is not print 5
  *
  * Return: 0 (success)
 */
