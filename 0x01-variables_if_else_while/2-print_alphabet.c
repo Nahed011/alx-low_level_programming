@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Description: print all alphabet letters
  *
@@ -18,5 +18,6 @@ int main(void)
 		ch++;
 	}
 	putchar('\n');
+	
 	return (0);
 }
