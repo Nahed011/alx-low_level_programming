@@ -16,6 +16,7 @@ int main(void)
 	{
 		/*convert digit to ASCII representation*/
 		putchar(digit + '0');
+		digit++;
 	}
 	putchar('\n');
 
