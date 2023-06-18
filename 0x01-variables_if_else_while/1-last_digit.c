@@ -1,18 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 
 /**
- * maim - entry point
+ * maim - Entry point
  *
- * Describtion: print the value of n status: greater than, is zero and is not print 5
+ * Description: print the value of n: greater than, is zero and is not print 5
  *
  * Return: 0 (success)
 */
 
 int main(void)
 {
-int n;
+	int n, digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
