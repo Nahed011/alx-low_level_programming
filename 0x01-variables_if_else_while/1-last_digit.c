@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 /**
- * maim - Entry point
+ * main - Entry point
  *
  * Description: print the value of n: greater than, is zero and is not print 5
  *
