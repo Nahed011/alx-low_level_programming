@@ -15,9 +15,9 @@ int main(void)
 	while (firstDigit <= 99)
 	{
 		secondDigit = firstDigit;
-		while (second Digit <= 99)
+		while (secondDigit <= 99)
 		{
-			if (srcondDigit != first Digit)
+			if (secondDigit != firstDigit)
 			{
 				putchar((firstDigit / 10) + 48);
 				putchar((firstDigit % 10) + 48);
