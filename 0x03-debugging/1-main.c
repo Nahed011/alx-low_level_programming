@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - causes an infinite loop
@@ -13,12 +13,13 @@ int main(void)
 
 	i = 0;
 
-	/*while (i < 10)*/
-	/*{*/
-	/* putchar(i);*/
-	/*}*/
+	/ while (i < 10)
+	/ /
+	/ { /
+	/ putchar(i); /
+	/ } /
 
-	printf("infinite loop avoided! \\o/\n");
+	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
 }
