@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Enrgy point
  *
- * Description: prints _putchar, followed by a new line
+ * Description: program that prints _putchar
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
