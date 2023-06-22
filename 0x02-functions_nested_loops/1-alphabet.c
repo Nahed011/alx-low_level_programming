@@ -3,6 +3,7 @@
 /**
  * print_alphabet - utilizes on the _putchar function
  * to print the alphabet a - z
+ * Return
 */
 
 void print_alphabet(void)
@@ -10,6 +11,8 @@ void print_alphabet(void)
 	 char c;
 
 	for (c = 'a'; c <= 'z'; ch++)
+	{
 		_putchar(c);
+	}
 	_putchar('\n');
 }
