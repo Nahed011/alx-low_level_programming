@@ -10,7 +10,7 @@ void print_line(int n)
 {
 	int lnchr;
 
-	if (num <= 0)
+	if (n <= 0)
 		_putchar('\n');
 	else
 	{
