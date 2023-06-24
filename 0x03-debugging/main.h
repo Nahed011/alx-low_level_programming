@@ -13,6 +13,7 @@ int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
+int convert_day(int month, int day);
 void print_remaining_days(int month, int day, int year);
 
 #endif
