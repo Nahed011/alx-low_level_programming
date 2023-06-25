@@ -36,13 +36,13 @@ int main(void)
 
 	for (count = 1; count <= 98; count++)
 	{
-		if (f10 > 0)
+		if (f1o > 0)
 			printf("%lu", f1o);
-		initial0s = numlenth(mx) - 1 - numlength(f1);
+		initial0s = numlength(mx) - 1 - numlength(f1);
 
 		while (f1o > 0 && initial0s > 0)
 		{
-			pritf("%d", 0);
+			printf("%d", 0);
 			initial0s--;
 		}
 		printf("%lu", f1);
