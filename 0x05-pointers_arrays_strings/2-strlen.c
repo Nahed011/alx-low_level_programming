@@ -3,18 +3,17 @@
 /**
  * _strlen - returns the length of a string
  *
- * @s: string input
+ * @s: string parameter input
  *
  * Return: length of string
 */
+
 int _strlen(char *s)
 {
-	int counter;
+	int count;
 
-	while (s[counter] != '\0')
-	{
-		counter++;
-	}
+	for (count = 0; *s != '\0'; ++s)
+		++count;
 
-	return (counter);
+	return (count);
 }
