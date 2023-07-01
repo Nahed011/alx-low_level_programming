@@ -7,7 +7,7 @@
  * Return: 1 if true, 0 if false
 */
 
-int isorinttableASCII (int n)
+int isorinttableASCII(int n)
 {
 	return (n >= 32 && n <= 126);
 }
