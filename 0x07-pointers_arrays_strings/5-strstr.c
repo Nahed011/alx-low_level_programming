@@ -5,7 +5,8 @@
  * _strstr - locates a substring
  * @haystack: input
  * @needle: input
- * Return: Always 0 (sucess)
+ * Return: a pointer to the beginning of the located substring,
+
 */
 
 char *_strstr(char *haystack, char *needle)
@@ -23,5 +24,5 @@ char *_strstr(char *haystack, char *needle)
 		if (*two == '\0')
 			return (haystack);
 	}
-	return (Null);
+	return (NULL);
 }
