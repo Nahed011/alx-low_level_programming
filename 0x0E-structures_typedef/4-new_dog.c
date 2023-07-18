@@ -45,7 +45,8 @@ char *_strcopy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
- /**
+
+/**
   * new_dog - Write a function that creates a new dog.
   * @name: name of dog
   * @age: age of dog
@@ -77,8 +78,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(dog);
 		return (NULL);
 	}
-	_strcpy(dog->name, name);
-	_strcpy(dog->owner, owner);
+	_strcopy(dog->name, name);
+	_strcopy(dog->owner, owner);
 	dog->age = age;
 	return (dog);
 }
