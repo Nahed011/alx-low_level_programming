@@ -35,7 +35,8 @@ char *_strcopy(char *dest, char *src)
   * @name: name of dog
   * @age: age of dog
   * @owner: dog owner
-  * Return: NULL if the function fails
+  * Return: struct pointer
+  * NULL if the function fails
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
