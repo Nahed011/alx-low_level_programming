@@ -4,7 +4,7 @@
 /**
  * _strlen - a function gets a length of string
  * @str: string to get length
- * Return: length of string
+ * Return: length of @str
 */
 int _strlen(const char *str)
 {
@@ -16,7 +16,7 @@ int _strlen(const char *str)
 }
 /**
  * _strcopy - a function returns @dest with copy of a string from @src
- * @dest: copy string here
+ * @dest: copy string to here
  * @src: string to copy
  * Return: @dest
 */
@@ -42,7 +42,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 
-	/* if name and owner are empyt and age is less than 0 return NULL*/
+	/* if name and owner are empyt and age is less than 0 return null*/
 	if (!name || age < 0 || !owner)
 		return (NULL);
 	dog = (dog_t *) malloc(sizeof(dog_t));
