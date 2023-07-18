@@ -42,7 +42,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 
-	/* if name and owner are empyt and age is less than 0 return null */
+	/* if name and owner are empty and age is less than zero return NULL */
 	if (!name || age < 0 || !owner)
 		return (NULL);
 	dog = (dog_t *) malloc(sizeof(dog_t));
