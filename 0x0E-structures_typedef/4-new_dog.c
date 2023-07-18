@@ -19,10 +19,12 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- * _strcopy - a function returns @dest with copy of a string from @src
- * @dest: copy string to here
- * @src: string to copy
- * Return: @dest
+ * _strcopy - a function copies the string printed by src
+ * including the terminating null byte (\0)
+ * to the buffer pointed to by dest
+ * @dest: pointer to the buffer
+ * @src: string to be copied
+ * Return: the pointer to dest
 */
 
 char *_strcopy(char *dest, char *src)
