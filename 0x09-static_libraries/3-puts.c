@@ -3,18 +3,17 @@
 /**
  * _puts - prints a string, followed by a new line
  *
- * @s: string to print
+ * @str: string to print
  *
  * Return: nothing
 */
 
-void _puts(char *s)
+void _puts(char *str)
 {
-	int _putchar(char c);
-	while (*s != '\0')
+	while (*str != '\0')
 	{
-		_putchar(*s + 48);
-		s++;
+		_putchar(*str + 0);
+		str++;
 	}
 	_putchar('\n');
 }
