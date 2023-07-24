@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * format_char - formates character
+ * format_char - formats character
  * @ap: argument pointer
  * @separator: string separator
 */
@@ -20,7 +20,7 @@ void format_int(char *separator, va_list ap)
 	printf("%s%d", separator, va_arg(ap, int));
 }
 /**
- * format_float - formares float
+ * format_float - formats float
  * @separator: string separator
  * @ap: argument pointer
 */
@@ -40,18 +40,19 @@ void format_string(char *separator, va_list ap)
 	switch ((int)(!str))
 	case 1:
 		str = "(nil)";
+
 	printf("%s%s", separator, str);
 }
 /**
  * print_all - prints anything
- * @format: format string
+ * @format: the format string
 */
 void print_all(const char * const format, ...)
 {
 	int i = 0, j;
 	char *separator = "";
 	va_list ap;
-	token_t token[] = {
+	token_t tokens[] = {
 	{"c", format_char},
 	{"i" format_int},
 	{"f", format_float},
