@@ -2,9 +2,9 @@
 
 /**
  * _strlen - returns the length of string
- * @str:  the string
+ * @s: the string whose length to check
  *
- * Return: length of string
+ * Return: integer length of string
 */
 
 int _strlen(char *s)
@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * size_t print_list - prints all the elements of a list_t list
+ * print_list - prints all the elements of a list_t list
  * @h: pointer to first node
  * Return: size of list
 */
