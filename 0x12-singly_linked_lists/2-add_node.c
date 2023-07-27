@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * list_len - determine length of liked list
+ * list_len - determines length of linked list
  * @h: pointer to first node
  * Return: size of list
 */
