@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void first(void)_attribute_((constractor));
+void first(void)__attribute__((constractor));
 
 /**
  * first - prints a sentence before main
