@@ -64,7 +64,7 @@ void print_int(unsigned long int n)
 /**
  * main - print the result of multiplication, followed by new line
  * @argc: int
- * @argv list
+ * @argv: list
  * Return: 0
 */
 
