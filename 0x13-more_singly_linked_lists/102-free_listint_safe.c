@@ -25,8 +25,8 @@ listint_t *find_listint_loop_fl(listint_t *head)
 }
 
 /**
- * size_t free_listint_safe - frees a listint_t list.
- * @head: linked list
+ * free_listint_safe - frees a listint list, even if it has a loop
+ * @h: head of list
  * Return: number of nodes freed
 */
 size_t free_listint_safe(listint_t **h)
